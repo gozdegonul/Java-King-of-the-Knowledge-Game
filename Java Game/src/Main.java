@@ -1792,11 +1792,11 @@ public class Main {
 
 
             // Function to check and print matching characters
-            CheckFunction.checkAndPrintMatches(city, combinedArray, "City");
-            CheckFunction.checkAndPrintMatches(district, combinedArray, "District");
+            CheckFunction.checkAndPrintMatches(city, combinedArray, "Country");
+            CheckFunction.checkAndPrintMatches(district, combinedArray, "City");
 
             // Prompt for the final answer
-            System.out.println("Wow, the time to guess. What is your answer? HINT: Please write your answer in the format 'City - District'.");
+            System.out.println("Wow, the time to guess. What is your answer? HINT: Please write your answer in the format 'Country - City'.");
             Scanner answ = new Scanner(System.in);
             String answer = answ.nextLine();
 

@@ -8,11 +8,11 @@ public class CheckFunction {
             char[] combinedArray = (city + district).toCharArray();
 
             // Function to check and print matching characters
-            checkAndPrintMatches(city, combinedArray, "City");
-            checkAndPrintMatches(district, combinedArray, "District");
+            checkAndPrintMatches(city, combinedArray, "Country");
+            checkAndPrintMatches(district, combinedArray, "City");
 
             // Prompt for the final answer
-            System.out.println("Wow, the time to guess. What is your answer? HINT: Please write your answer in the format 'City - District'.");
+            System.out.println("Wow, the time to guess. What is your answer? HINT: Please write your answer in the format 'Country - City'.");
             Scanner answ = new Scanner(System.in);
             String answer = answ.nextLine();
 
