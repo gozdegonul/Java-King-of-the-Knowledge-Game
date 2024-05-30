@@ -1688,7 +1688,7 @@ public class Main {
 
 
             System.out.println("Here is the question:" +
-                    "\n City and District " +
+                    "\n Country and City " +
                     "\n - - - - - - - - - - - " +
                     "\n   - - - - - - - - - ");
 
