@@ -13,7 +13,6 @@ King of the Knowledge is a Java-based educational quiz game designed to test use
 ## 🛠️ Technologies Used
 
 - Java
-- Swing (GUI library)
 
 ## 🚀 Getting Started
 
